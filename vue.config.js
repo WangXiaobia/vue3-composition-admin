@@ -32,9 +32,10 @@ module.exports = {
     open: true,
     noInfo: false,
     overlay: {
-      warnings: true,
-      errors: true,
+      warnings: false,
+      errors:false,
     },
+    // lintOnSave:false
   },
   pluginOptions: {
     'style-resources-loader': {

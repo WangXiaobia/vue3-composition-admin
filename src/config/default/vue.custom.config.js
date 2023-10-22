@@ -9,7 +9,7 @@ const vueDefaultConfig = {
     publicPath: '/',
     outputDir: 'dist',
     assetsDir: 'static',
-    lintOnSave: true,
+    lintOnSave: false,
     transpileDependencies: ['vue-echarts', 'resize-detector'],
     //webpack 配置的项目名称
     title: 'vue3-ts-composition-admin-template',
