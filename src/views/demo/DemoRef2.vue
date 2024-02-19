@@ -15,7 +15,7 @@
   </div>
 </template>
 
-<script lang="ts" setup>
+<script lang="ts" setup >
 import { debounce } from './debouce'
 import { ref, reactive } from 'vue'
 const a = ref(1)
